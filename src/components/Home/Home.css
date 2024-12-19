@@ -1,0 +1,21 @@
+.main-img {
+    background-image: url("../../assets/home_images/kitchen_1.jpg");
+    background-size: cover;
+}
+
+.secondary-img-1 {
+    background-image: url("../../assets/home_images/kitchen_2.jpg");
+    background-size: cover;
+}
+
+.secondary-img-2 {
+    background-image: url("../../assets/home_images/kitchen_3.jpg");
+    background-size: cover;
+}
+
+.swipe-down-icon {
+    border-radius: 100%;
+    width: 4rem;
+    height: 4rem;
+    background-color: #ffffff;
+}
