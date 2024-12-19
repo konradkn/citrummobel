@@ -1,4 +1,4 @@
-import logo from "../../assets/company_logo/citrum_logo.png";
+import logo from "../../../assets/company_logo/citrum_logo.png";
 
 const NavBar = () => {
   return (
