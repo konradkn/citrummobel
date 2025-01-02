@@ -20,7 +20,7 @@ import kitchen3 from "../../../../assets/home_images/kitchen_7.jpg";
 import kitchen4 from "../../../../assets/home_images/kitchen_8.jpg";
 
 // assets icons
-import swipeDown from "../../../../assets/icons/swipe-down.png";
+import swipeDown from "../../../../assets/icons/swipe.png";
 import whatsApp from "../../../../assets/icons/whatsapp.png";
 
 const phoneNumber = "";
