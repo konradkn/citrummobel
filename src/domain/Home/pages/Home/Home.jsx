@@ -20,6 +20,17 @@ import kitchen6 from "../../../../assets/home_images/kitchen_6.jpg";
 import kitchen7 from "../../../../assets/home_images/kitchen_7.jpg";
 import kitchen8 from "../../../../assets/home_images/kitchen_8.jpg";
 import kitchen9 from "../../../../assets/home_images/kitchen_9.jpeg";
+import kitchen10 from "../../../../assets/home_images/kitchen_10.jpg";
+import kitchen11 from "../../../../assets/home_images/kitchen_11.jpg";
+import kitchen12 from "../../../../assets/home_images/kitchen_12.jpg";
+import kitchen13 from "../../../../assets/home_images/kitchen_13.jpg";
+import kitchen14 from "../../../../assets/home_images/kitchen_14.jpg";
+import kitchen15 from "../../../../assets/home_images/kitchen_15.jpg";
+import kitchen16 from "../../../../assets/home_images/kitchen_16.jpg";
+import kitchen17 from "../../../../assets/home_images/kitchen_17.jpg";
+import kitchen18 from "../../../../assets/home_images/kitchen_18.jpg";
+import kitchen19 from "../../../../assets/home_images/kitchen_19.jpg";
+import kitchen20 from "../../../../assets/home_images/kitchen_20.jpg";
 
 // assets icons
 import swipeDown from "../../../../assets/icons/swipe.png";
@@ -78,10 +89,10 @@ const Home = () => {
                   <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
-                  img1={kitchen9}
-                  img2={kitchen6}
-                  img3={kitchen7}
-                  img4={kitchen8}
+                  img1={kitchen10}
+                  img2={kitchen11}
+                  img3={kitchen12}
+                  img4={kitchen13}
                 />
               </div>
               {/* not shown on desktop */}
@@ -98,10 +109,10 @@ const Home = () => {
                   <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
-                  img1={kitchen5}
-                  img2={kitchen6}
-                  img3={kitchen7}
-                  img4={kitchen8}
+                  img1={kitchen14}
+                  img2={kitchen15}
+                  img3={kitchen16}
+                  img4={kitchen17}
                 />
               </div>
             </div>
