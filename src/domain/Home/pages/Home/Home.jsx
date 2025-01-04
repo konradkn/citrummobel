@@ -12,6 +12,7 @@ import Card from "../../../../shared/components/Card/Card";
 import Banner from "../../../../shared/components/Banner/Banner";
 import ImageCard from "../../../../shared/components/ImageCard/ImageCard";
 import IndicationItem from "../../../../shared/components/IndicationItem/IndicationItem";
+import SwipeIndication from "../../../../shared/components/SwipeIndication/SwipeIndication";
 
 // assets carousel
 import kitchen1 from "../../../../assets/home_images/kitchen_5.jpg";
@@ -53,7 +54,7 @@ const Home = () => {
             <div className="xl:flex">
               <div className="xl:m-1">
                 <div className="xl:hidden">
-                  <IndicationItem img={swipeDown} />
+                  <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
                   img1={kitchen1}
@@ -64,9 +65,17 @@ const Home = () => {
               </div>
               {/* not shown on desktop */}
               <div className="xl:hidden">
-                <Card title={"Diseño Personalizado"} description={"Creamos diseños exclusivos que se adaptan a tus preferencias y al espacio disponible. Cada proyecto es único, como tú."} />
+                <Card
+                  title={"Diseño Personalizado"}
+                  description={
+                    "Creamos diseños exclusivos que se adaptan a tus preferencias y al espacio disponible. Cada proyecto es único, como tú."
+                  }
+                />
               </div>
               <div className="xl:m-1">
+                <div className="xl:hidden">
+                  <SwipeIndication description={"Deslice a la derecha"} />
+                </div>
                 <HomeSlider
                   img1={kitchen1}
                   img2={kitchen2}
@@ -76,9 +85,17 @@ const Home = () => {
               </div>
               {/* not shown on desktop */}
               <div className="xl:hidden">
-                <Card title={"Fabricación a Medida"} description={"Utilizamos materiales de alta calidad y técnicas de vanguardia para fabricar cocinas que duran toda la vida."}/>
+                <Card
+                  title={"Fabricación a Medida"}
+                  description={
+                    "Utilizamos materiales de alta calidad y técnicas de vanguardia para fabricar cocinas que duran toda la vida."
+                  }
+                />
               </div>
               <div className="xl:m-1">
+                <div className="xl:hidden">
+                  <SwipeIndication description={"Deslice a la derecha"} />
+                </div>
                 <HomeSlider
                   img1={kitchen1}
                   img2={kitchen2}

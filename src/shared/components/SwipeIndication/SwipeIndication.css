@@ -1,0 +1,71 @@
+@keyframes change {
+  from {
+    background-color: gray;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes text-change {
+  from {
+    color: gray;
+  }
+  to {
+    color: black;
+  }
+}
+
+.swipe-description {
+  animation: text-change 3s infinite;
+}
+
+.class-animation {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 25px solid black;
+  animation: change 2s infinite;
+}
+
+/* HTML: <div class="chevron"></div> */
+.chevron {
+  --s: 30%; /* control the shape (can be percentage) */
+  height: 1.2rem;
+  aspect-ratio: 3/5;
+  clip-path: polygon(
+    0 0,
+    var(--s) 0,
+    100% 50%,
+    var(--s) 100%,
+    0 100%,
+    calc(100% - var(--s)) 50%
+  );
+  animation: change 3s infinite;
+}
+
+/* Retrasa la animación usando nth-child */
+.swipe-element:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.swipe-element:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.swipe-element:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.swipe-element:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.swipe-element:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.swipe-element:nth-child(6) {
+  animation-delay: 0.5s;
+}
