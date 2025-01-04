@@ -17,7 +17,7 @@
 }
 
 .swipe-description {
-  animation: text-change 3s infinite;
+  animation: text-change 2s infinite;
 }
 
 .class-animation {
@@ -42,7 +42,7 @@
     0 100%,
     calc(100% - var(--s)) 50%
   );
-  animation: change 3s infinite;
+  animation: change 2s infinite;
 }
 
 /* Retrasa la animación usando nth-child */
