@@ -1,18 +1,18 @@
 @keyframes change {
   from {
-    background-color: gray;
+    background-color: #ececec;
   }
   to {
-    background-color: black;
+    background-color: #1b1b1b;
   }
 }
 
 @keyframes text-change {
   from {
-    color: gray;
+    color: #ececec;
   }
   to {
-    color: black;
+    color: #1b1b1b;
   }
 }
 
