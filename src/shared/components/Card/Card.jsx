@@ -10,7 +10,7 @@ const Card = ({ title, description, img, bgColor, textColor, responsiveHeight, o
           {img ? (
             <div className="w-full flex justify-center items-center">
             <div
-              className="bg-teal-700 rounded-3xl w-20 h-20 flex justify-center items-center animate-pulse"
+              className="bg-teal-600 rounded-3xl w-20 h-20 flex justify-center items-center"
               onClick={onClick}
             >
               <img src={img} className="w-10 " />
