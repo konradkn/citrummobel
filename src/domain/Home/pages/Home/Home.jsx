@@ -15,10 +15,11 @@ import IndicationItem from "../../../../shared/components/IndicationItem/Indicat
 import SwipeIndication from "../../../../shared/components/SwipeIndication/SwipeIndication";
 
 // assets carousel
-import kitchen1 from "../../../../assets/home_images/kitchen_5.jpg";
-import kitchen2 from "../../../../assets/home_images/kitchen_6.jpg";
-import kitchen3 from "../../../../assets/home_images/kitchen_7.jpg";
-import kitchen4 from "../../../../assets/home_images/kitchen_8.jpg";
+import kitchen5 from "../../../../assets/home_images/kitchen_5.jpg";
+import kitchen6 from "../../../../assets/home_images/kitchen_6.jpg";
+import kitchen7 from "../../../../assets/home_images/kitchen_7.jpg";
+import kitchen8 from "../../../../assets/home_images/kitchen_8.jpg";
+import kitchen9 from "../../../../assets/home_images/kitchen_9.jpeg";
 
 // assets icons
 import swipeDown from "../../../../assets/icons/swipe.png";
@@ -57,10 +58,10 @@ const Home = () => {
                   <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
-                  img1={kitchen1}
-                  img2={kitchen2}
-                  img3={kitchen3}
-                  img4={kitchen4}
+                  img1={kitchen5}
+                  img2={kitchen6}
+                  img3={kitchen7}
+                  img4={kitchen8}
                 />
               </div>
               {/* not shown on desktop */}
@@ -77,10 +78,10 @@ const Home = () => {
                   <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
-                  img1={kitchen1}
-                  img2={kitchen2}
-                  img3={kitchen3}
-                  img4={kitchen4}
+                  img1={kitchen9}
+                  img2={kitchen6}
+                  img3={kitchen7}
+                  img4={kitchen8}
                 />
               </div>
               {/* not shown on desktop */}
@@ -97,10 +98,10 @@ const Home = () => {
                   <SwipeIndication description={"Deslice a la derecha"} />
                 </div>
                 <HomeSlider
-                  img1={kitchen1}
-                  img2={kitchen2}
-                  img3={kitchen3}
-                  img4={kitchen4}
+                  img1={kitchen5}
+                  img2={kitchen6}
+                  img3={kitchen7}
+                  img4={kitchen8}
                 />
               </div>
             </div>
