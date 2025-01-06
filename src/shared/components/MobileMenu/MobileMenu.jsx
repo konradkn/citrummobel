@@ -14,7 +14,20 @@ const MobileMenu = () => {
           className="fixed bottom-24 right-5 w-16 h-16 bg-slate-900 rounded-xl flex justify-center items-center active:scale-125 ease-in-out duration-200"
           onClick={() => setIsOpen((e) => !e)}
         >
-          <img src={`${isOpen ? x : menuIcon}`} className="h-12" />
+          <img
+            src={menuIcon}
+            alt="Menu Icon"
+            className={`absolute right-3 top-3 h-10 transition-transform duration-300 ease-in-out ${
+              isOpen ? "scale-0 rotate-90" : "scale-100 rotate-0"
+            }`}
+          />
+          <img
+            src={x}
+            alt="Close Icon"
+            className={`absolute right-3 top-3 h-10 transition-transform duration-300 ease-in-out ${
+              isOpen ? "scale-100 rotate-0" : "scale-0 rotate-90"
+            }`}
+          />
         </div>
 
         <div
