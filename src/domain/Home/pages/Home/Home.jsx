@@ -13,6 +13,7 @@ import Banner from "../../../../shared/components/Banner/Banner";
 import ImageCard from "../../../../shared/components/ImageCard/ImageCard";
 import SwipeIndication from "../../../../shared/components/SwipeIndication/SwipeIndication";
 import FixedButton from "../../../../shared/components/FixedButton/FixedButton";
+import MobileMenu from "../../../../shared/components/MobileMenu/MobileMenu";
 
 // assets carousel
 import kitchen5 from "../../../../assets/home_images/kitchen_5.jpg";
@@ -49,6 +50,7 @@ const Home = () => {
   return (
     <>
       <NavBar />
+      <MobileMenu />
       <div className="p-3">
         <FixedButton icon={whatsApp} onClick={handleWARedirect}/>
         <div className="xl:flex xl:h-lvh">
